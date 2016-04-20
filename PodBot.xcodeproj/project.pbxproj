@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3EDAE511CC765BC0059BB40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDAE501CC765BC0059BB40 /* AppDelegate.swift */; };
+		A3EDAE531CC765BC0059BB40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDAE521CC765BC0059BB40 /* ViewController.swift */; };
+		A3EDAE561CC765BC0059BB40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EDAE541CC765BC0059BB40 /* Main.storyboard */; };
+		A3EDAE581CC765BC0059BB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3EDAE571CC765BC0059BB40 /* Assets.xcassets */; };
+		A3EDAE5B1CC765BC0059BB40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EDAE591CC765BC0059BB40 /* LaunchScreen.storyboard */; };
+		A3EDAE661CC765BC0059BB40 /* PodBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDAE651CC765BC0059BB40 /* PodBotTests.swift */; };
+		A3EDAE711CC765BC0059BB40 /* PodBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDAE701CC765BC0059BB40 /* PodBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3EDAE621CC765BC0059BB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EDAE451CC765BC0059BB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EDAE4C1CC765BC0059BB40;
+			remoteInfo = PodBot;
+		};
+		A3EDAE6D1CC765BC0059BB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3EDAE451CC765BC0059BB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3EDAE4C1CC765BC0059BB40;
+			remoteInfo = PodBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3EDAE4D1CC765BC0059BB40 /* PodBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EDAE501CC765BC0059BB40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3EDAE521CC765BC0059BB40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3EDAE551CC765BC0059BB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3EDAE571CC765BC0059BB40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3EDAE5A1CC765BC0059BB40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3EDAE5C1CC765BC0059BB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EDAE611CC765BC0059BB40 /* PodBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EDAE651CC765BC0059BB40 /* PodBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodBotTests.swift; sourceTree = "<group>"; };
+		A3EDAE671CC765BC0059BB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3EDAE6C1CC765BC0059BB40 /* PodBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EDAE701CC765BC0059BB40 /* PodBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodBotUITests.swift; sourceTree = "<group>"; };
+		A3EDAE721CC765BC0059BB40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3EDAE4A1CC765BC0059BB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EDAE5E1CC765BC0059BB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EDAE691CC765BC0059BB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3EDAE441CC765BC0059BB40 = {
+			isa = PBXGroup;
+			children = (
+				A3EDAE4F1CC765BC0059BB40 /* PodBot */,
+				A3EDAE641CC765BC0059BB40 /* PodBotTests */,
+				A3EDAE6F1CC765BC0059BB40 /* PodBotUITests */,
+				A3EDAE4E1CC765BC0059BB40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3EDAE4E1CC765BC0059BB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDAE4D1CC765BC0059BB40 /* PodBot.app */,
+				A3EDAE611CC765BC0059BB40 /* PodBotTests.xctest */,
+				A3EDAE6C1CC765BC0059BB40 /* PodBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3EDAE4F1CC765BC0059BB40 /* PodBot */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDAE501CC765BC0059BB40 /* AppDelegate.swift */,
+				A3EDAE521CC765BC0059BB40 /* ViewController.swift */,
+				A3EDAE541CC765BC0059BB40 /* Main.storyboard */,
+				A3EDAE571CC765BC0059BB40 /* Assets.xcassets */,
+				A3EDAE591CC765BC0059BB40 /* LaunchScreen.storyboard */,
+				A3EDAE5C1CC765BC0059BB40 /* Info.plist */,
+			);
+			path = PodBot;
+			sourceTree = "<group>";
+		};
+		A3EDAE641CC765BC0059BB40 /* PodBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDAE651CC765BC0059BB40 /* PodBotTests.swift */,
+				A3EDAE671CC765BC0059BB40 /* Info.plist */,
+			);
+			path = PodBotTests;
+			sourceTree = "<group>";
+		};
+		A3EDAE6F1CC765BC0059BB40 /* PodBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDAE701CC765BC0059BB40 /* PodBotUITests.swift */,
+				A3EDAE721CC765BC0059BB40 /* Info.plist */,
+			);
+			path = PodBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3EDAE4C1CC765BC0059BB40 /* PodBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EDAE751CC765BC0059BB40 /* Build configuration list for PBXNativeTarget "PodBot" */;
+			buildPhases = (
+				A3EDAE491CC765BC0059BB40 /* Sources */,
+				A3EDAE4A1CC765BC0059BB40 /* Frameworks */,
+				A3EDAE4B1CC765BC0059BB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodBot;
+			productName = PodBot;
+			productReference = A3EDAE4D1CC765BC0059BB40 /* PodBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3EDAE601CC765BC0059BB40 /* PodBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EDAE781CC765BC0059BB40 /* Build configuration list for PBXNativeTarget "PodBotTests" */;
+			buildPhases = (
+				A3EDAE5D1CC765BC0059BB40 /* Sources */,
+				A3EDAE5E1CC765BC0059BB40 /* Frameworks */,
+				A3EDAE5F1CC765BC0059BB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EDAE631CC765BC0059BB40 /* PBXTargetDependency */,
+			);
+			name = PodBotTests;
+			productName = PodBotTests;
+			productReference = A3EDAE611CC765BC0059BB40 /* PodBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3EDAE6B1CC765BC0059BB40 /* PodBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3EDAE7B1CC765BC0059BB40 /* Build configuration list for PBXNativeTarget "PodBotUITests" */;
+			buildPhases = (
+				A3EDAE681CC765BC0059BB40 /* Sources */,
+				A3EDAE691CC765BC0059BB40 /* Frameworks */,
+				A3EDAE6A1CC765BC0059BB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3EDAE6E1CC765BC0059BB40 /* PBXTargetDependency */,
+			);
+			name = PodBotUITests;
+			productName = PodBotUITests;
+			productReference = A3EDAE6C1CC765BC0059BB40 /* PodBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3EDAE451CC765BC0059BB40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Victor Gelmutdinov";
+				TargetAttributes = {
+					A3EDAE4C1CC765BC0059BB40 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A3EDAE601CC765BC0059BB40 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A3EDAE4C1CC765BC0059BB40;
+					};
+					A3EDAE6B1CC765BC0059BB40 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A3EDAE4C1CC765BC0059BB40;
+					};
+				};
+			};
+			buildConfigurationList = A3EDAE481CC765BC0059BB40 /* Build configuration list for PBXProject "PodBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3EDAE441CC765BC0059BB40;
+			productRefGroup = A3EDAE4E1CC765BC0059BB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3EDAE4C1CC765BC0059BB40 /* PodBot */,
+				A3EDAE601CC765BC0059BB40 /* PodBotTests */,
+				A3EDAE6B1CC765BC0059BB40 /* PodBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3EDAE4B1CC765BC0059BB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EDAE5B1CC765BC0059BB40 /* LaunchScreen.storyboard in Resources */,
+				A3EDAE581CC765BC0059BB40 /* Assets.xcassets in Resources */,
+				A3EDAE561CC765BC0059BB40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EDAE5F1CC765BC0059BB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EDAE6A1CC765BC0059BB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3EDAE491CC765BC0059BB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EDAE531CC765BC0059BB40 /* ViewController.swift in Sources */,
+				A3EDAE511CC765BC0059BB40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EDAE5D1CC765BC0059BB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EDAE661CC765BC0059BB40 /* PodBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3EDAE681CC765BC0059BB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EDAE711CC765BC0059BB40 /* PodBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3EDAE631CC765BC0059BB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EDAE4C1CC765BC0059BB40 /* PodBot */;
+			targetProxy = A3EDAE621CC765BC0059BB40 /* PBXContainerItemProxy */;
+		};
+		A3EDAE6E1CC765BC0059BB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3EDAE4C1CC765BC0059BB40 /* PodBot */;
+			targetProxy = A3EDAE6D1CC765BC0059BB40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3EDAE541CC765BC0059BB40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EDAE551CC765BC0059BB40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3EDAE591CC765BC0059BB40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3EDAE5A1CC765BC0059BB40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3EDAE731CC765BC0059BB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3EDAE741CC765BC0059BB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EDAE761CC765BC0059BB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PodBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IncSoft.PodBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3EDAE771CC765BC0059BB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PodBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IncSoft.PodBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3EDAE791CC765BC0059BB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PodBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IncSoft.PodBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodBot.app/PodBot";
+			};
+			name = Debug;
+		};
+		A3EDAE7A1CC765BC0059BB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PodBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IncSoft.PodBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodBot.app/PodBot";
+			};
+			name = Release;
+		};
+		A3EDAE7C1CC765BC0059BB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PodBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IncSoft.PodBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PodBot;
+			};
+			name = Debug;
+		};
+		A3EDAE7D1CC765BC0059BB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PodBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IncSoft.PodBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PodBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3EDAE481CC765BC0059BB40 /* Build configuration list for PBXProject "PodBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EDAE731CC765BC0059BB40 /* Debug */,
+				A3EDAE741CC765BC0059BB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3EDAE751CC765BC0059BB40 /* Build configuration list for PBXNativeTarget "PodBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EDAE761CC765BC0059BB40 /* Debug */,
+				A3EDAE771CC765BC0059BB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3EDAE781CC765BC0059BB40 /* Build configuration list for PBXNativeTarget "PodBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EDAE791CC765BC0059BB40 /* Debug */,
+				A3EDAE7A1CC765BC0059BB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3EDAE7B1CC765BC0059BB40 /* Build configuration list for PBXNativeTarget "PodBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3EDAE7C1CC765BC0059BB40 /* Debug */,
+				A3EDAE7D1CC765BC0059BB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3EDAE451CC765BC0059BB40 /* Project object */;
+}
