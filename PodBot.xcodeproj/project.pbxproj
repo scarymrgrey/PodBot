@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36814C01CF7485000CEC6A2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36814BF1CF7485000CEC6A2 /* RegisterViewController.swift */; };
 		A3EDAE511CC765BC0059BB40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDAE501CC765BC0059BB40 /* AppDelegate.swift */; };
 		A3EDAE531CC765BC0059BB40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EDAE521CC765BC0059BB40 /* ViewController.swift */; };
 		A3EDAE561CC765BC0059BB40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3EDAE541CC765BC0059BB40 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A36814BF1CF7485000CEC6A2 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		A3EDAE4D1CC765BC0059BB40 /* PodBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3EDAE501CC765BC0059BB40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3EDAE521CC765BC0059BB40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				A3EDAE501CC765BC0059BB40 /* AppDelegate.swift */,
 				A3EDAE521CC765BC0059BB40 /* ViewController.swift */,
+				A36814BF1CF7485000CEC6A2 /* RegisterViewController.swift */,
 				A3EDAE541CC765BC0059BB40 /* Main.storyboard */,
 				A3EDAE571CC765BC0059BB40 /* Assets.xcassets */,
 				A3EDAE591CC765BC0059BB40 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36814C01CF7485000CEC6A2 /* RegisterViewController.swift in Sources */,
 				A3EDAE531CC765BC0059BB40 /* ViewController.swift in Sources */,
 				A3EDAE511CC765BC0059BB40 /* AppDelegate.swift in Sources */,
 			);
